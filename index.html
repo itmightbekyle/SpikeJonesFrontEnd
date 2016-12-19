@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>The Spike Jones Project&reg;</title>
+	<meta name="description" content="The Spike Jones Project&reg;">
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsiveslides.css">
+	<!-- Custom Fonts -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/script.js"></script>
+    <script src="js/jquery183.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+		  // Slideshow 
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+			  $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+			  $('.events').append("<li>after event fired.</li>");
+			}
+		  });
+		});
+	</script>
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+</head>
+<body oncontextmenu="return false" class="home-page">
+<div class="wrap-body">
+<!--////////////////////////////////////Header-->
+<header >
+	<div class="wrap-header zerogrid">
+		<div class="row">
+			<div id="cssmenu">
+				<ul>
+				   <li class='active'><a href="index.html">Home</a></li>
+				   <li><a href="bio.html">Bio</a></li>
+				   <li><a href="about.html">About</a></li>
+				   <li><a href="media.html">Media</a></li>
+				<li><a href="contact.html">Contact</a></li>
+                    <li><a href="involved.html">Get Involved</a></li>
+				</ul>
+			</div>
+			<a href='index.html' class="logo"><img src="images/logo.png" /></a>
+		</div>
+	</div>
+</header>
+<div class="slider">
+	<!-- Slideshow -->
+	<div class="callbacks_container" >
+		<ul class="rslides" id="slider">
+			<li>
+				<img src="images/slideshow-image1.jpg" alt="">
+				<div class="caption">
+					<h1>Discover Spike Jones</h1>
+					<span></span>
+					<a class="button" href="bio.html">Read about Spike</a></div>
+			</li>
+			<li>
+				<img src="images/slideshow-image2.jpg" alt="">
+				<div class="caption">
+					<h1>His Music</h1>
+					<span></span>
+                    <a class="button" href="music.html">Listen</a></div>
+			</li>
+			 <li>
+				<img src="images/slideshow-image3.jpg" alt="">
+				<div class="caption">
+					<h1>His Story</h1>
+					<span ></span>
+					<a class="button" href="bio.html">Read</a></div>
+			</li>
+            <li>
+				<img src="images/slideshow-image4.jpg" alt="">
+				<div class="caption">
+					<h1>Videos of Spike</h1>
+					<span ></span>
+					  <a class="button" href="videos.html">Watch</a></div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+</div>
+<!--////////////////////////////////////Container-->
+<section id="container">
+	<div class="wrap-container">
+		<!-----------------content-box-1-------------------->
+		<section class="content-box boxstyle-2 box-1">
+			<div class="zerogrid">
+				<div class="row wrap-box t-center"><!--Start Box-->
+                    <h1 style="text-align:left">His Story</h1>
+					<p style="text-align:left">Lindley Armstrong “Spike” Jones was an American musician and bandleader specializing in performing satirical arrangements of popular songs. Through the 1940s and early 1950s, the band recorded under the name Spike Jones and his City Slickers and toured the United States and Canada under the title The Musical Depreciation Revue.</p>
+				</div>
+			</div>
+		</section>
+		<!-----------------content-box-2-------------------->
+		<section class="content-box boxstyle-1 box-2">
+			<div class="zerogrid">
+				<div class="row wrap-box"><!--Start Box-->
+					<h2 style="text-align:center; color=black">About the Website</h2>
+                    <img src="images/cut1.png" h:223.39 px;height:184.97px style:"float:left;">
+					<span style="text-align:right">The Spike Jones Project is a collaborative undertaking to restore, archive and share the massive media collection produced by the one and only Spike Jones. It all started with Utah Valley University professor Mike Wisland’s passion for preserving music history. To Wisland, preserving music history does not mean to keep records in a vault, or hoard them away in some personal collection, but instead to bring music and film from a dwindling time to life in the hearts and minds of younger generations.</span>
+				</div>
+			</div>
+		</section>
+		<!-----------------content-box-3-------------------->
+		<section class="content-box box-3">
+			<div class="zerogrid">
+				<div class="row wrap-box"><!--Start Box-->
+					<div class="row">
+						<div class="col-1-3">
+							<div class="wrap-col wrapper">
+								<h3>Preserve his Legacy</h3>
+								<span>Contributions of pictures, records, and videos help us to keep the legacy alive.</span>
+								<a class="button" href="involved.html">Get Involved</a>
+							</div>
+						</div>
+						<div class="col-1-3">
+							<div class="wrap-col wrapper">
+								<h3> </h3>
+								<span> </span>
+								<p> </p>
+							</div>
+						</div>
+						<div class="col-1-3">
+							<div class="wrap-col wrapper">
+								<img src="images/preservespike.png"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</section>
+<!--////////////////////////////////////Footer-->
+<footer>
+	<div class='embed-container maps' style="margin: 0; padding: 0;height: 250px;">
+	</div>
+	<div class="wrap-footer">
+		<div class="zerogrid">
+			<div class="row">
+				<h3>The Spike Jones Project</h3>
+                <span>Email /<a href="mailto:thespikejonesproject@gmail.com"> thespikejonesproject@gmail.com</a> </span></br>
+				<span>Utah Valley University </span></br>
+                <span>800 West University Parkway </span></br>
+                <span>Orem, Utah 84057 </span></br>
+				<span><strong>&copy; Copyright 2016 - The Spike Jones Estate</a></strong></span>
+				<ul class="social-buttons">
+					<li><a href="http://twitter.com/thespikejonesproject"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li><a href="http://facebook.com/thespikejonesproject"><i class="fa fa-facebook"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+</body></html>
